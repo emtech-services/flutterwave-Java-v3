@@ -47,7 +47,10 @@ This Library cannot be used on a project with a file named "base.properties" in 
 
 
 ## Installation
-
+Build jar
+```shell
+./mvnw clean package -Dmaven.test.skip=true
+```
 ## Maven users
 Add this dependency to your project's POM: 
 
